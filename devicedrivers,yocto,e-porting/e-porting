@@ -1,0 +1,27 @@
+1.Modify the U-Boot Command Prompt & Test
+2.Test the behaviour bootdelay env variable
+3.Modify the Baudrate of the UART U-BOOT Console
+4.added wifi driver wilc3000 to RB-IMX6UL
+5.Modify the bootargs to take the RFS only from SDCard & Test
+6.Modify the U-Boot Command Prompt & Test
+7.Test the behaviour bootdelay env variable
+8.Modify the Baudrate of the UART U-BOOT Console
+9.Modify the bootcmd variable to load the kernel from TFTP Server
+10.Modify the bootargs to take the RFS only from SDCard & Test
+11.Modify the bootargs to take the RFS only from NFS Server
+12.Add fwupdate command to U-Boot
+13.Add sled driver to U-Boot
+14.Add sled_cmd to test sled driver
+15.Delete RootFS Image from u-boot and boot the board (make note of the error log)
+16.Delete Kernel Image from u-boot and boot the board (make note of the error log)
+17.Do Kernel banner modifications, compile & test the new kernel Image
+18.Add sled driver under driver/misc folder and test the kernel
+19.Delete RootFS Image from u-boot and boot the board (make note of the error log)
+20.Delete Kernel Image from u-boot and boot the board (make note of the error log)
+21.Do Kernel banner modifications, compile & test the new kernel Image
+Disable the Sound subsystem in Kernel
+a) Compare the Kernel image size with & without Sound Subsystem
+b) Compare the Kernel boot-log with & without Sound Subsystem.
+22. Add sled driver under driver/misc folder and test the kernel
+23.Pin muxing for a5d2x(use gpio for uart and i2c).
+24.set a uart in expansion header and test for RB-IMX6UL
